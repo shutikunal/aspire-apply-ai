@@ -17,24 +17,46 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 283 89% 42%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 240 5% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 240 5% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 193 95% 42%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 283 89% 42%;
+
+    /* AspireMatch Brand Colors */
+    --brand-purple: 283 89% 42%;
+    --brand-teal: 193 95% 42%;
+    --brand-orange: 25 95% 53%;
+    --brand-pink: 327 87% 67%;
+    --brand-navy: 221 83% 23%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--brand-purple)), hsl(var(--brand-pink)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--brand-teal)), hsl(var(--brand-navy)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--brand-orange)), hsl(var(--brand-pink)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-purple)) 0%, hsl(var(--brand-teal)) 50%, hsl(var(--brand-orange)) 100%);
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(var(--brand-purple) / 0.3);
+    --shadow-card: 0 4px 6px -1px hsl(var(--brand-purple) / 0.1), 0 2px 4px -2px hsl(var(--brand-purple) / 0.1);
+    --shadow-hover: 0 10px 30px -10px hsl(var(--brand-purple) / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 
